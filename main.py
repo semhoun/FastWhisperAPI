@@ -102,7 +102,7 @@ def home():
             </li>
         </ul>
     """)
-@app.post('/v1/transcriptions',
+@app.post('/v1/audio/transcriptions',
           responses={
               200: SUCCESSFUL_RESPONSE,
               400: BAD_REQUEST_RESPONSE,
